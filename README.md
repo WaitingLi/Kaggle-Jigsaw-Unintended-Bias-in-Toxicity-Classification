@@ -1,7 +1,7 @@
 # DNSC 6290 Project Report -- [Jigsaw Unintended Bias in Toxicity Classification](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification)
 
 
-![competition icon](https://github.com/WaitingLi/Kaggle-Jigsaw-Unintended-Bias-in-Toxicity-Classification/edit/master/blob/master/Pictures/Competition_Title.png)
+![competition icon](https://github.com/WaitingLi/Kaggle-Jigsaw-Unintended-Bias-in-Toxicity-Classification/blob/master/Pictures/Competition_Title.png)
 
 
 
@@ -19,7 +19,7 @@ When the Conversation AI team first built toxicity models, **they found that mod
 
 Here's a good example from training set that clarifies the main problem we face in the competition.
 
-![why hard](https://github.com/WaitingLi/Kaggle-Jigsaw-Unintended-Bias-in-Toxicity-Classification/edit/master/blob/master/Pictures/why_hard.png)
+![why hard](https://github.com/WaitingLi/Kaggle-Jigsaw-Unintended-Bias-in-Toxicity-Classification/blob/master/Pictures/why_hard.png)
 
 For the Toxity Comment classification task, **the model is prone to predict the last comment to toxic class**,because it mentions 'gay'.
 
@@ -30,9 +30,9 @@ To solve this problem, we need to first come up with a metric that can estimate 
 
 Basically, the finally score is an average of 4 AUC. 3 of them only take into account parts of the dataset that depending on whether the comment mentions word like 'gay' and whether it's toxic.
 
-![metric](https://github.comWaitingLi/Kaggle-Jigsaw-Unintended-Bias-in-Toxicity-Classification/edit/master/blob/master/Pictures/metric.png)
+![metric](https://github.comWaitingLi/Kaggle-Jigsaw-Unintended-Bias-in-Toxicity-Classification/blob/master/Pictures/metric.png)
 
-![metric2](https://github.com/WaitingLi/Kaggle-Jigsaw-Unintended-Bias-in-Toxicity-Classification/edit/master/blob/master/Pictures/metric2.png)
+![metric2](https://github.com/WaitingLi/Kaggle-Jigsaw-Unintended-Bias-in-Toxicity-Classification/blob/master/Pictures/metric2.png)
 
 **Score = 1/4 OverAll_AUC + 1/4 Subgrou_AUC + 1/4 BPSN_AUC + 1/4 BNSP_AUC**
 
