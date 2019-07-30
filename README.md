@@ -101,6 +101,6 @@ All in all, it's an interesting competition. We learned a lot from other kaggler
 
 Finally our reach about 0.9446 on the LB, which ranks about 75.
 
-![score 1](https://github.com/jiaruxu233/Jigsaw-Toxicity-Classification/blob/master/Pictures/Score.png)
+![score 1](https://github.com/WaitingLi/Kaggle-Jigsaw-Unintended-Bias-in-Toxicity-Classification/blob/master/Pictures/Score.png)
 
-![score 2](https://github.com/jiaruxu233/2019summer-Machine-Learning-Project/blob/master/Pictures/groupscore.png)
+![score 2](https://github.com/WaitingLi/Kaggle-Jigsaw-Unintended-Bias-in-Toxicity-Classification/blob/master/Pictures/groupscore.png)
